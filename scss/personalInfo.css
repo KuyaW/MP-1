@@ -1,0 +1,10 @@
+@font-face {
+  font-family: myFont;
+  src: url("../fonts/Poppins-SemiBold.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: myFont, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}/*# sourceMappingURL=personalInfo.css.map */

@@ -1,0 +1,65 @@
+@font-face {
+  font-family: font;
+  src: url(../fonts/Poppins-SemiBold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: font, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#carouselExampleCaptions img {
+  height: 100vh;
+  object-fit: cover;
+}
+#carouselExampleCaptions {
+  margin-top: 50px;
+  color: black !important;
+}
+.navbar {
+  background: rgba(140, 234, 231, 1);
+}
+.navbar-brand {
+  color: rgb(40, 174, 177);
+}
+.nav-link {
+  color: rgb(40, 174, 177);
+}
+.testimonies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.testimonies .card {
+  position: relative;
+  width: 25%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  background: rgba(140, 234, 231, 0.5);
+  box-shadow: 2px 2px 2px rgb(124, 206, 203), 3px 3px 3px rgb(124, 206, 203),
+    3px 3px 1px rgb(124, 206, 203);
+  align-items: center;
+  text-align: justify;
+  backdrop-filter: blur(10px);
+}
+.card h2 {
+  width: 100%;
+  display: block;
+  text-align: right;
+  font-size: 19px;
+}
+.featurette {
+  background-color: rgba(140, 234, 231, 0.3);
+  backdrop-filter: blur(10px);
+  padding: 15px;
+}
+
+.backgroundImage {
+  background-image: url("../pic/job4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

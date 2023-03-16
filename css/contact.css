@@ -1,0 +1,68 @@
+@font-face {
+  font-family: font;
+  src: url(../fonts/Poppins-SemiBold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: font, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+form {
+  background-color: rgba(140, 234, 231, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 20px 10px 15px 10px;
+  border-radius: 10px;
+  margin: auto;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+form input[type="submit"] {
+  align-self: flex-end;
+  padding: 7px 15px;
+  outline: none;
+  border: none;
+  margin-top: 10px;
+  font-weight: 800;
+  color: black;
+  background-image: linear-gradient(
+    90deg,
+    rgba(125, 238, 234, 0.5),
+    rgba(37, 250, 243, 0.5)
+  );
+}
+form input[type="submit"]:hover {
+  box-shadow: 0px 0px 10px rgba(60, 185, 175, 0.464);
+}
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  padding: 7px;
+  border: 2px solid transparent;
+  outline: none;
+  resize: none;
+}
+form input[type="text"]:hover,
+form input[type="email"]:hover,
+form input[type="text"]:focus,
+form input[type="email"]:focus {
+  border-bottom: 2px solid rgba(60, 109, 107, 0.5);
+}
+form textarea:hover {
+  border: 2px solid rgba(110, 158, 156, 0.5);
+}
+.navbar {
+  background: rgba(140, 234, 231, 1);
+}
+.navbar-brand {
+  color: rgb(40, 174, 177);
+}
+.nav-link {
+  color: rgb(40, 174, 177);
+}

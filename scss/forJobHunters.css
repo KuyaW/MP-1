@@ -1,0 +1,61 @@
+@font-face {
+  font-family: myFont;
+  src: url("../fonts/Poppins-SemiBold.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: myFont, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.freelancers {
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.freelancers .freelanceBoxHolder .fieldHolder {
+  display: flex;
+}
+.freelancers .freelanceBoxHolder .fieldHolder .fields {
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-right: 5px;
+}
+
+.usersHolder {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+.usersHolder a {
+  text-decoration: none;
+  color: black;
+}
+.usersHolder .userHolder {
+  padding: 10px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+.usersHolder .userHolder .picHolder {
+  width: 250px;
+  height: 230px;
+  box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.usersHolder .userHolder .contentHolder .skillset {
+  display: flex;
+  width: 250px;
+  flex-wrap: wrap;
+}
+.usersHolder .userHolder .contentHolder .skillset .skill {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 5px;
+  padding: 2px 10px;
+  margin: 5px;
+}/*# sourceMappingURL=forJobHunters.css.map */

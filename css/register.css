@@ -1,0 +1,123 @@
+@font-face {
+  font-family: myFont;
+  src: url("../fonts/Poppins-SemiBold.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: myFont, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.outerHolder {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+.outerHolder .containingElement {
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  background-color: rgba(188, 241, 242, 0.5);
+  border: 1px solid rgba(125, 193, 194, 0.9);
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+}
+.outerHolder a {
+  position: absolute;
+  text-decoration: none;
+  padding: 7px 10px;
+  background: rgba(74, 207, 211, 0.9);
+  color: white;
+  transition: 0.5s ease;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+.outerHolder a:hover {
+  /* -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+  background: #fff;
+  color: rgba(74, 207, 211, 1);
+  border: 1px solid rgba(74, 207, 211, 0.9);
+}
+.outerHolder .myBtn {
+  right: 10px;
+  top: 10px;
+}
+.outerHolder .home {
+  left: 10px;
+  top: 10px;
+}
+
+.containingElement .imageHolder {
+  width: 150px;
+  height: 150px;
+  background-image: url("../pic/user.png");
+  background-color: lightgray;
+  border-radius: 50%;
+  margin: 10px auto;
+  background-position: center;
+}
+.containingElement input[type="text"],
+.containingElement input[type="password"],
+.containingElement input[type="email"] {
+  padding: 5px 15px;
+  border: 2px solid transparent;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  outline: none;
+}
+.containingElement input[type="submit"] {
+  margin-top: 15px;
+  padding: 7px;
+  border: none;
+  cursor: pointer;
+  background: rgba(74, 207, 211, 0.9);
+  color: white;
+  border-radius: 5px;
+}
+.containingElement input[type="text"]:hover,
+.containingElement input[type="password"]:hover,
+.containingElement input[type="email"]:hover,
+.containingElement input[type="text"]:focus,
+.containingElement input[type="password"]:focus,
+.containingElement input[type="email"]:focus {
+  border-bottom: 2px solid rgba(111, 207, 209, 0.5);
+}
+.containingElement .passwordShower {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+.containingElement .passwordShower .box {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containingElement .passwordShower #boxContent {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  color: rgb(50, 50, 50);
+}
+.containingElement label {
+  color: rgb(50, 50, 50);
+}
+
+.outerHolder {
+  background-image: url("../svg/freelance.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.containingElement {
+  backdrop-filter: blur(10px);
+}

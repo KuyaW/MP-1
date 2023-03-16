@@ -1,0 +1,48 @@
+@font-face {
+  font-family: font;
+  src: url(../fonts/Poppins-SemiBold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: font, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+img {
+  object-fit: contain;
+}
+.navbar {
+  background: rgba(140, 234, 231, 1);
+}
+.navbar-brand {
+  color: rgb(40, 174, 177);
+}
+.nav-link {
+  color: rgb(40, 174, 177);
+}
+.card-body {
+  background-color: rgba(140, 234, 231, 0.4);
+}
+
+.profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url("../pic/user.png");
+  background-size: cover;
+  background-position: center;
+}
+.profileHidden {
+  width: 250px;
+  height: 250px;
+  background-image: url("../pic/user.png");
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  border-radius: 50%;
+}
+.profileHolder {
+  width: 100%;
+}

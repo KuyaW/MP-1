@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="keywords" content="">
+     <meta name="description" content="">
+     <meta name="author" content="Bryan S. Solon">
+     <link rel="stylesheet" href="./css/login.css">
+     <link rel="stylesheet" href="./fa/css/font-awesome.min.css">
+     <title>Login</title>
+</head>
+<body>
+     <div class="outerHolder">
+          <a href="index.html" class="home"> <i class="fa fa-home"></i> HOME</a>
+          <a href="register.html" class="myBtn"> <i class="fa fa-sign-in"></i> Register</a>
+          <div class="containingElement">
+               <div class="imageHolder">
+
+               </div>
+               <label for="username"> <i class="fa fa-user"></i> Username</label>
+               <input type="text" name="" id="username" placeholder="Username">
+               <label for="password"> <i class="fa fa-lock"></i> Password</label>
+               <input type="password" name="" id="password" placeholder="Password">
+               <div class="passwordShower">
+                    <div class="box" id="box" onclick="showPassword()"></div>
+                    <div id="boxContent" onclick="showPassword()">Show Password</div>
+               </div>
+               <input type="submit" value="SUBMIT" onclick="location.href = 'box.html'">
+          </div>
+     </div>
+    
+</body>
+<script>
+let box = document.getElementById('box');
+let boxContent = document.getElementById('boxContent');
+
+function showPassword(){
+     if(boxContent.textContent == "Show Password"){
+          box.innerHTML = '<i class="fa fa-check"></i>';
+          boxContent.textContent = "Hide Password";
+          password.type = "text";
+     }else{
+          box.innerHTML = "";
+          boxContent.textContent = "Show Password";
+          password.type = "password";
+
+     }
+}
+
+
+
+</script>
+</html>
